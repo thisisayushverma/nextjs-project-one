@@ -16,7 +16,7 @@ function page() {
             formData.append('contact', data.contact);
             formData.append('image', data.image[0]);
             formData.append('email_id', data.email_id);
-            const res = await fetch('/api/add-school', {
+            const res = await fetch('/api/school', {
                 method:'POST',
                 body:formData
             })
