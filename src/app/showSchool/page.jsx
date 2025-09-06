@@ -38,7 +38,7 @@ function page() {
                 loading ? (
                     <h1>Loading...</h1>
                 ) : (
-                    <div className='w-[80%] sm:w-[60%]  flex flex-col gap-3  sm:flex-row'>
+                    <div className='w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 p-4'>
                         {
                             error !== null ? (
                                 <h1>{error}</h1>
